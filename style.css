@@ -1,0 +1,107 @@
+
+
+/* hover.html CSS*/ 
+#largeElement {
+    width: 300px; /*width of element*/ 
+    padding-top: 50px; 
+    height: 100px; /*height of element*/ 
+    background: burlywood; 
+    text-emphasis-color: bisque; 
+    border-radius: 8px; /*rounded corners*/ 
+    color: beige; /*color of text*/
+    font-size: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    margin-top: 200px; 
+    text-align: center; 
+}
+
+/* Button.html CSS */
+#btn1 {
+    width: 150px; 
+    height: 100px; 
+    border-radius: 8px; 
+    background-color: bisque; 
+    display: block;  
+    margin-left: 100px; 
+    position: fixed; 
+    left: 0; 
+    color: darkgoldenrod; /*color of text*/ 
+    font-size: 20px; /*size of text*/ 
+}
+
+#btn2 {
+    width: 150px; /*size of button */ 
+    height: 100px; /*size of button */ 
+    border-radius: 8px; /*round edges */ 
+    background-color: bisque; 
+    margin-right: 100px; /*length from margins of broswer */ 
+    position: fixed; 
+    right: 0; 
+    color: darkgoldenrod; /*color of text*/ 
+    font-size: 20px; /*size of text*/ 
+}
+
+#text {
+    text-align: center; 
+    padding-top: 120px; 
+    position: relative; /*relative to it's position, top is nudged down by 65px*/ 
+    top: 65px; 
+    color: rgb(216, 171, 98); 
+}
+
+/*Form.html CSS*/
+.username{
+    align-content: center;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: rgb(102, 102, 174); 
+}
+
+.email{
+    align-content: center;
+    position: fixed;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: rgb(102, 102, 174); 
+    
+}
+.password{
+    align-content: center;
+    position: fixed;
+    top: 36%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: rgb(102, 102, 174); 
+}
+
+.button{
+    align-content: center;
+    position: fixed;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+#text-form{
+    text-align: center; 
+    position: fixed; 
+    top: 5%; 
+    left: 43%; 
+    color: rgb(67, 82, 114); 
+}
+
+.container{
+	max-width: 500px;
+	padding: 200px 70px; /*container padding height, width*/ 
+	background: #f4f7f8;
+	margin: 10px auto;
+	background: #f4f7f8;
+	border-radius: 8px;
+	font-family: Georgia; 
+}
+
