@@ -1,0 +1,43 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>button</title>
+  </head>
+  <body>
+
+        <!-- Question 1) Create an HTML page with two buttons that argue with each other. 
+        When one button is clicked, the text "I'm right" should be placed 
+        next to it. When the other button is clicked, the text is replaced 
+        with, "No, I'm right!" -->
+  
+    <!-- Buttons and text -->
+    
+    <p id= "text">Click on a button</p>
+    
+    <div id ='buttons'>
+    <button id= "btn1">button 1</button>
+    <button id= "btn2">button 2</button>
+    </div>  
+
+    <script>
+
+    var button1 = document.getElementById("btn1"); 
+    var button2 = document.getElementById("btn2"); 
+    var txt = document.getElementById("text"); 
+    
+    button1.addEventListener("click", () => {
+        txt.innerHTML = "I am right"; 
+    });
+
+    button2.addEventListener("click",() => {
+        txt.innerHTML = "No, I am right!"; 
+    });
+
+    </script>
+
+  </body>
+</html>
+ 
+

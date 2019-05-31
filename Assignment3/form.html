@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Form</title>
+  </head>
+  <body>
+  
+    <!-- Question 3) Create an HTML page with a form. It should include inputs for a username, email, and password. 
+         Also a submit button. -->
+    <div class = "container"> 
+    <form name="login">
+        <div class="username">
+            <label for="username">Username:</label>
+            <br><input type='text' name ="username"><br>
+        </div>
+        <div class ="email">
+            <label for="email">E-mail:</label>
+            <br><input type="email" id="mail" name="email" required value="@"></br>
+        </div>
+        <div class="password">
+            <label for="pass">Password:</label>
+            <br><input type="password" id="pass" name="pwd" required minlength="6"></br>
+        </div>
+
+        <div class="button">
+                <button type="submit" id="enter">submit</button>
+        </div>
+    </form>
+</div>
+
+        <h1 id="text-form">Enter Login</h1>
+
+
+    <script src='index.js'></script>
+
+  </body>
+</html>
